@@ -1,5 +1,5 @@
-# TTest
+# TTask
 ```
-$ git clone https://github.com/nafferro/TTest.git
+$ git clone https://github.com/nafferro/TTask.git
 $ open TTest.xcodeproj
 ```
