@@ -12,23 +12,17 @@ struct MainView: View {
     
     var body: some View {
         VStack {
+            Image(systemName: viewModel.movementIcon).font(.system(size: 56.0))
             HStack () {
                 Text("Status: ")
                     .font(.title)
-                Text("Still")
+                Text(viewModel.movementLabel)
                     .font(.title)
             }
-            .padding(.top, 50.0)
-            HStack () {
-                Text("Zone: ")
-                    .font(.title)
-                Text(viewModel.fence)
-                    .font(.title)
-            }
-            .padding(.top, 50.0)
+            .padding(.top, 5.0)
         }
-        .onAppear {
-            viewModel.setupGeoFence()
+        .alert(viewModel.notificationTitle, isPresented: $viewModel.showAlert) {
+            Button("OK", role: .cancel) { }
         }
     }
 }

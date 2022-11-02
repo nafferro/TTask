@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C511E47B29102C04004AB7CB /* MotionApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511E47A29102C04004AB7CB /* MotionApi.swift */; };
 		C511E48129102F8D004AB7CB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511E48029102F8D004AB7CB /* MainViewModel.swift */; };
 		C5B9A37329102075005D4C1C /* TTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9A37229102075005D4C1C /* TTaskApp.swift */; };
 		C5B9A37529102075005D4C1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9A37429102075005D4C1C /* MainView.swift */; };
@@ -17,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		C511E47529102ADB004AB7CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C511E47A29102C04004AB7CB /* MotionApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionApi.swift; sourceTree = "<group>"; };
 		C511E48029102F8D004AB7CB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		C511E4822910313C004AB7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5B9A36F29102075005D4C1C /* TTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,14 +42,6 @@
 				C511E47529102ADB004AB7CB /* MapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C511E47729102BBD004AB7CB /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				C511E47A29102C04004AB7CB /* MotionApi.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		C511E47E29102F62004AB7CB /* View */ = {
@@ -92,7 +82,6 @@
 			children = (
 				C5B9A37229102075005D4C1C /* TTaskApp.swift */,
 				C511E4822910313C004AB7CB /* Info.plist */,
-				C511E47729102BBD004AB7CB /* Services */,
 				C511E47E29102F62004AB7CB /* View */,
 				C511E47F29102F73004AB7CB /* ViewModel */,
 				C5B9A37629102077005D4C1C /* Assets.xcassets */,
@@ -180,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B9A37529102075005D4C1C /* MainView.swift in Sources */,
-				C511E47B29102C04004AB7CB /* MotionApi.swift in Sources */,
 				C5B9A37329102075005D4C1C /* TTaskApp.swift in Sources */,
 				C511E48129102F8D004AB7CB /* MainViewModel.swift in Sources */,
 			);
@@ -315,6 +303,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need to know it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -350,6 +342,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to know it";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need to know it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

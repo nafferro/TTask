@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We need to know it</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We need to know it</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need to know it</string>
-	<key>NSMotionUsageDescription</key>
-	<string>We need to know it</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
